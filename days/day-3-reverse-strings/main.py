@@ -20,21 +20,24 @@ def join_sentence_list(sentence_list):
     sentence = " ".join(sentence_list)
     return sentence
 
+output_file = open("output.txt", "w")
+
 with open("poem.txt", "r") as file:
-    content = file.readlines()
-    for par in content:
-        if par == "\n":
-            print("")
-        else:
-            par = par.split(".") #split pars with . as delimiter
-            if "\n" in par:
-                par.remove("\n")
-            for sentence in par:
-                clean_sentence = sentence.strip()
-                sentence_list = split_sentence(clean_sentence)
-                sentence_list = reverse_second_word(sentence_list)
-                clean_sentence = join_sentence_list(sentence_list)
-                if "Desiderata" in clean_sentence:
-                    print(clean_sentence)
-                else:
-                    print(f"{clean_sentence}.")
+    with open("output.txt", "w") as output_file:
+        content = file.readlines()
+        for par in content:
+            if par == "\n":
+                print("", file=output_file)
+            else:
+                par = par.split(".") #split pars with . as delimiter
+                if "\n" in par:
+                    par.remove("\n")
+                for sentence in par:
+                    clean_sentence = sentence.strip()
+                    sentence_list = split_sentence(clean_sentence)
+                    sentence_list = reverse_second_word(sentence_list)
+                    clean_sentence = join_sentence_list(sentence_list)
+                    if "Desiderata" in clean_sentence:
+                        print(clean_sentence, file=output_file)
+                    else:
+                        print(f"{clean_sentence}.", file=output_file)
