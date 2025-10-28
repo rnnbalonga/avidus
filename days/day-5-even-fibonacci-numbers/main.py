@@ -8,33 +8,33 @@
 UPPER_LIMIT = 4000000
 
 fibonacci_sequence = [1, 2]
-sum_even = 0
+sum_even = 2
 
 #fibonacci algorithm:
 # F(n) = F(n-1) + F(n-2)
 # n is len(fibonacci_sequence)
 
 def get_next_element(next_index):
-    #using next index, assign a value to it
-    next_element = fibonacci_sequence[next_index-2] + fibonacci_sequence[next_index-1]
-    #append next element to fibonacci sequence
-    fibonacci_sequence.append(next_element)
+    #using next index, calculate the value of the next element
+    return fibonacci_sequence[next_index-2] + fibonacci_sequence[next_index-1]
 
-while fibonacci_sequence[-1] != 10:
+while fibonacci_sequence[-1] <= 90:
     next_index = len(fibonacci_sequence)
-    get_next_element(next_index=next_index)
+    next_element = get_next_element(next_index=next_index)
+    #append to fibonacci_sequence
+    fibonacci_sequence.append(next_element)
+    #check if next_element is even
+    # if True, add next_element to sum_even
+    if next_element % 2 == 0:
+        sum_even += next_element
     next_index += 1
 
+print(sum_even)
 print(fibonacci_sequence)
 
+# def main():
+#     pass
 
-# for i in range:
-#     fibonacci_sequence[i] = fibonacci_sequence[i-3] + fibonacci_sequence[i-2]
-#     fibonacci_sequence.append(fibonacci_sequence[i])
-
-def main():
-    pass
-
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
 
