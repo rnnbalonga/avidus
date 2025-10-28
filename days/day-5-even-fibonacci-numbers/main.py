@@ -13,16 +13,14 @@ sum_even = 2
 #fibonacci algorithm:
 # F(n) = F(n-1) + F(n-2)
 # n is len(fibonacci_sequence)
+# fibonacci_sequence[-2] + fibonacci_sequence[-1]
 
-def get_next_element(next_index):
-    #using next index, calculate the value of the next element
-    return fibonacci_sequence[next_index-2] + fibonacci_sequence[next_index-1]
-
-while fibonacci_sequence[-1] <= 90:
+while fibonacci_sequence[-2] + fibonacci_sequence[-1] < UPPER_LIMIT:
     next_index = len(fibonacci_sequence)
-    next_element = get_next_element(next_index=next_index)
-    #append to fibonacci_sequence
-    fibonacci_sequence.append(next_element)
+    next_element = fibonacci_sequence[-2] + fibonacci_sequence[-1]
+    #append to fibonacci_sequence if < UPPER_LIMIT
+    if next_element < UPPER_LIMIT:
+        fibonacci_sequence.append(next_element)
     #check if next_element is even
     # if True, add next_element to sum_even
     if next_element % 2 == 0:
@@ -30,7 +28,7 @@ while fibonacci_sequence[-1] <= 90:
     next_index += 1
 
 print(sum_even)
-print(fibonacci_sequence)
+print(fibonacci_sequence[-1])
 
 # def main():
 #     pass
