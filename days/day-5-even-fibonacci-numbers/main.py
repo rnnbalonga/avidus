@@ -8,27 +8,41 @@
 UPPER_LIMIT = 4000000
 
 fibonacci_sequence = [1, 2]
-sum_even = 2
+sum_even = 0
+
+UPPER_LIMIT = 4_000_000
+
+a, b = 1, 2
+sum_even = 0
+
+while a <= UPPER_LIMIT:
+    if a % 2 == 0:
+        sum_even += a
+    a, b = b, a + b
+
+print(sum_even)
 
 #fibonacci algorithm:
 # F(n) = F(n-1) + F(n-2)
 # n is len(fibonacci_sequence)
 # fibonacci_sequence[-2] + fibonacci_sequence[-1]
 
-while fibonacci_sequence[-2] + fibonacci_sequence[-1] < UPPER_LIMIT:
-    next_index = len(fibonacci_sequence)
-    next_element = fibonacci_sequence[-2] + fibonacci_sequence[-1]
-    #append to fibonacci_sequence if < UPPER_LIMIT
-    if next_element < UPPER_LIMIT:
-        fibonacci_sequence.append(next_element)
-    #check if next_element is even
-    # if True, add next_element to sum_even
-    if next_element % 2 == 0:
-        sum_even += next_element
-    next_index += 1
-
-print(sum_even)
-print(fibonacci_sequence[-1])
+#
+# NOOB VERSION
+#
+# while fibonacci_sequence[-2] + fibonacci_sequence[-1] < UPPER_LIMIT:
+#     next_index = len(fibonacci_sequence)
+#     next_element = fibonacci_sequence[-2] + fibonacci_sequence[-1]
+#     #append to fibonacci_sequence if < UPPER_LIMIT
+#     if next_element < UPPER_LIMIT:
+#         fibonacci_sequence.append(next_element)
+#     #check if next_element is even
+#     # if True, add next_element to sum_even
+#     if next_element % 2 == 0:
+#         sum_even += next_element
+#     next_index += 1
+# print(sum_even)
+# print(fibonacci_sequence[-1])
 
 # def main():
 #     pass
