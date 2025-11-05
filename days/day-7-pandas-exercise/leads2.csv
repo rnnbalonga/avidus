@@ -1,0 +1,106 @@
+customer_id|name|product_type|color|premium|average_order|country
+CUST001A|Customer_001|A|red|T|758.92|Japan
+CUST002B|Customer_002|B|yellow|F|942.75|Japan
+CUST003A|Customer_003|A|blue|T|548.60|United States
+CUST004C|Customer_004|C|red|F|821.91|Japan
+CUST005B|Customer_005|B|blue|F|688.44|France
+CUST006A|Customer_006|A|yellow|T|893.92|Japan
+CUST007B|Customer_007|B|blue|T|467.22|Germany
+CUST008A|Customer_008|A|red|F|316.00|Japan
+CUST009C|Customer_009|C|yellow|T|887.00|Japan
+CUST010B|Customer_010|B|blue|F|765.25|Canada
+CUST011A|Customer_011|A|yellow|T|347.91|Japan
+CUST012C|Customer_012|C|red|T|683.55|Japan
+CUST013A|Customer_013|A|blue|F|1013.41|United States
+CUST014B|Customer_014|B|red|F|417.93|Japan
+CUST015A|Customer_015|A|yellow|T|586.18|Japan
+CUST016C|Customer_016|C|blue|F|378.77|Australia
+CUST017A|Customer_017|A|red|T|928.12|Japan
+CUST018C|Customer_018|C|yellow|F|826.10|Japan
+CUST019A|Customer_019|A|blue|T|492.31|Germany
+CUST020B|Customer_020|B|red|F|682.54|Japan
+CUST021A|Customer_021|A|yellow|T|848.09|Japan
+CUST022B|Customer_022|B|red|F|771.33|Japan
+CUST023C|Customer_023|C|blue|F|505.32|France
+CUST024A|Customer_024|A|yellow|T|412.16|Japan
+CUST025B|Customer_025|B|red|F|492.78|Japan
+CUST026C|Customer_026|C|yellow|T|925.20|United States
+CUST027A|Customer_027|A|red|F|352.80|Japan
+CUST028B|Customer_028|B|yellow|F|743.99|Canada
+CUST029A|Customer_029|A|blue|T|931.40|Japan
+CUST030B|Customer_030|B|red|T|602.03|Japan
+CUST031A|Customer_031|A|blue|F|951.09|United States
+CUST032C|Customer_032|C|yellow|F|630.00|Japan
+CUST033A|Customer_033|A|red|F|788.60|Japan
+CUST034B|Customer_034|B|blue|T|298.19|Germany
+CUST035A|Customer_035|A|yellow|T|710.60|Japan
+CUST036C|Customer_036|C|red|F|489.33|Japan
+CUST037B|Customer_037|B|yellow|F|801.42|Australia
+CUST038A|Customer_038|A|blue|T|991.03|Japan
+CUST039C|Customer_039|C|red|F|341.77|Japan
+CUST040A|Customer_040|A|yellow|F|709.01|France
+CUST041B|Customer_041|B|red|T|483.33|Japan
+CUST042A|Customer_042|A|yellow|T|742.00|Japan
+CUST043B|Customer_043|B|blue|T|936.20|Japan
+CUST044C|Customer_044|C|yellow|F|503.14|United States
+CUST045A|Customer_045|A|red|T|983.42|Japan
+CUST046B|Customer_046|B|blue|T|842.89|Japan
+CUST047A|Customer_047|A|yellow|F|351.29|Germany
+CUST048C|Customer_048|C|red|T|957.81|Japan
+CUST049B|Customer_049|B|blue|T|815.17|Japan
+CUST050A|Customer_050|A|yellow|F|395.61|Canada
+CUST051C|Customer_051|C|blue|F|692.18|Japan
+CUST052A|Customer_052|A|red|T|811.54|Japan
+CUST053B|Customer_053|B|yellow|T|560.70|United States
+CUST054A|Customer_054|A|red|F|902.20|Japan
+CUST055B|Customer_055|B|yellow|F|759.31|Japan
+CUST056C|Customer_056|C|blue|T|420.22|Australia
+CUST057A|Customer_057|A|red|F|546.93|Japan
+CUST058C|Customer_058|C|blue|T|950.04|Japan
+CUST059B|Customer_059|B|yellow|F|273.40|France
+CUST060A|Customer_060|A|red|F|467.05|Japan
+CUST061C|Customer_061|C|blue|T|926.77|Japan
+CUST062B|Customer_062|B|yellow|F|681.08|Japan
+CUST063A|Customer_063|A|red|T|793.19|Germany
+CUST064B|Customer_064|B|blue|F|519.72|Japan
+CUST065A|Customer_065|A|yellow|T|819.00|Japan
+CUST066C|Customer_066|C|red|F|704.33|Canada
+CUST067A|Customer_067|A|blue|T|474.15|Japan
+CUST068B|Customer_068|B|yellow|F|747.82|Japan
+CUST069A|Customer_069|A|red|T|703.81|United States
+CUST070C|Customer_070|C|blue|F|860.44|Japan
+CUST071B|Customer_071|B|yellow|F|442.15|Japan
+CUST072A|Customer_072|A|red|F|611.07|France
+CUST073B|Customer_073|B|blue|T|734.10|Japan
+CUST074A|Customer_074|A|yellow|T|401.33|Japan
+CUST075B|Customer_075|B|blue|F|342.51|Australia
+CUST076C|Customer_076|C|red|T|582.61|Japan
+CUST077A|Customer_077|A|blue|T|851.21|Japan
+CUST078C|Customer_078|C|yellow|F|728.14|Germany
+CUST079B|Customer_079|B|blue|T|312.90|Japan
+CUST080A|Customer_080|A|red|T|916.88|Japan
+CUST081C|Customer_081|C|blue|T|750.55|United States
+CUST082A|Customer_082|A|red|T|845.22|Japan
+CUST083B|Customer_083|B|yellow|T|987.11|Japan
+CUST084A|Customer_084|A|blue|F|459.10|Canada
+CUST085C|Customer_085|C|yellow|F|514.31|Japan
+CUST086A|Customer_086|A|red|T|892.02|Japan
+CUST087B|Customer_087|B|blue|T|734.25|France
+CUST088C|Customer_088|C|yellow|F|604.01|United Kingdom ← mismatched country (1 of 6)
+CUST089A|Customer_089|A|blue|F|683.22|Japan
+CUST090B|Customer_090|B|red|T|552.11|Japan
+CUST091A|Customer_091|A|yellow|F|715.03|Japan
+CUST092C|Customer_092|C|red|T|953.00|Japan
+CUST093B|Customer_093|B|blue|F|834.17|United States
+CUST094A|Customer_094|A|yellow|T|669.15|Japan
+CUST095C|Customer_095|C|blue|T|571.11|Japan
+CUST096B|Customer_096|B|red|F|680.55|Australia
+CUST097A|Customer_097|A|yellow|T|895.50|Japan
+CUST098B|Customer_098|B|blue|F|792.10|Japan
+CUST099C|Customer_099|C|red|T|657.33|Japan
+CUST100A|Customer_100|A|yellow|T|905.88|Canada
+CUST101A|Customer_101|A|blue|T|745.92|Japan
+CUST102B|Customer_102|B|red|F|554.34|Japan
+CUST103C|Customer_103|C|blue|F|712.26|United States
+CUST104A|Customer_104|A|yellow|T|698.10|Germany
+CUST105B|Customer_105|B|red|F|812.77|France

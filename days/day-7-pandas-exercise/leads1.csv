@@ -1,0 +1,101 @@
+customer_id|name|birthday|country|total_sales
+1|Customer_001|1987-03-12|Japan|753.42
+2|Customer_002|1990-11-05|Japan|948.16
+3|Customer_003|1979-06-21|United States|563.77
+4|Customer_004|1984-02-09|Japan|812.45
+5|Customer_005|1993-08-14|France|678.91
+6|Customer_006|1988-12-30|Japan|905.33
+7|Customer_007|1991-09-25|Germany|450.17
+8|Customer_008|1985-10-03|Japan|299.84
+9|Customer_009|1997-04-16|Japan|872.56
+10|Customer_010|1982-07-08|Canada|774.65
+11|Customer_011|1995-01-22|Japan|341.28
+12|Customer_012|1989-11-11|Japan|688.73
+13|Customer_013|1976-05-28|United States|998.41
+14|Customer_014|1992-03-19|Japan|423.69
+15|Customer_015|1999-09-15|Japan|574.22
+16|Customer_016|1980-12-04|Australia|391.55
+17|Customer_017|1986-08-27|Japan|934.10
+18|Customer_018|1978-10-13|Japan|811.32
+19|Customer_019|1994-02-07|Germany|499.65
+20|Customer_020|1998-06-12|Japan|671.44
+21|Customer_021|1983-09-30|Japan|857.19
+22|Customer_022|1975-11-23|Japan|763.09
+23|Customer_023|1981-01-14|France|499.23
+24|Customer_024|1996-07-02|Japan|398.55
+25|Customer_025|1984-05-08|Japan|501.36
+26|Customer_026|1993-03-10|United States|913.02
+27|Customer_027|1979-06-26|Japan|366.41
+28|Customer_028|1987-08-01|Canada|731.67
+29|Customer_029|1991-04-19|Japan|942.53
+30|Customer_030|1985-12-17|Japan|589.45
+31|Customer_031|1982-07-23|United States|956.80
+32|Customer_032|1978-09-15|Japan|618.27
+33|Customer_033|1990-01-01|Japan|803.54
+34|Customer_034|1988-02-25|Germany|286.99
+35|Customer_035|1986-03-08|Japan|724.32
+36|Customer_036|1999-10-14|Japan|500.60
+37|Customer_037|1983-06-03|Australia|812.22
+38|Customer_038|1989-09-09|Japan|978.15
+39|Customer_039|1995-02-16|Japan|322.84
+40|Customer_040|1984-11-20|France|695.91
+41|Customer_041|1987-03-18|Japan|474.58
+42|Customer_042|1993-07-13|Japan|726.47
+43|Customer_043|1981-05-25|Japan|928.63
+44|Customer_044|1998-08-04|United States|509.70
+45|Customer_045|1989-12-19|Japan|991.82
+46|Customer_046|1977-10-06|Japan|857.99
+47|Customer_047|1994-04-27|Germany|362.44
+48|Customer_048|1982-06-01|Japan|946.37
+49|Customer_049|1990-03-30|Japan|820.29
+50|Customer_050|1988-05-20|Canada|383.15
+51|Customer_051|1985-08-28|Japan|676.94
+52|Customer_052|1991-11-12|Japan|798.77
+53|Customer_053|1984-02-23|United States|570.41
+54|Customer_054|1997-05-29|Japan|888.60
+55|Customer_055|1981-10-08|Japan|749.25
+56|Customer_056|1979-12-11|Australia|404.67
+57|Customer_057|1993-07-21|Japan|537.48
+58|Customer_058|1990-06-19|Japan|963.21
+59|Customer_059|1987-08-30|France|281.59
+60|Customer_060|1985-04-16|Japan|476.34
+61|Customer_061|1989-02-09|Japan|914.58
+62|Customer_062|1995-03-12|Japan|692.43
+63|Customer_063|1978-07-27|Germany|785.05
+64|Customer_064|1992-09-01|Japan|531.88
+65|Customer_065|1984-10-29|Japan|807.22
+66|Customer_066|1990-12-05|Canada|697.37
+67|Customer_067|1987-01-26|Japan|483.90
+68|Customer_068|1982-05-14|Japan|752.71
+69|Customer_069|1996-08-10|United States|689.33
+70|Customer_070|1988-03-09|Japan|879.65
+71|Customer_071|1985-10-02|Japan|437.99
+72|Customer_072|1993-06-04|France|599.82
+73|Customer_073|1980-09-18|Japan|722.48
+74|Customer_074|1986-12-25|Japan|412.76
+75|Customer_075|1979-11-22|Australia|331.67
+76|Customer_076|1995-01-10|Japan|597.13
+77|Customer_077|1983-07-07|Japan|865.21
+78|Customer_078|1992-02-28|Germany|716.42
+79|Customer_079|1987-05-16|Japan|298.76
+80|Customer_080|1981-03-04|Japan|904.52
+81|Customer_081|1994-09-29|United States|738.44
+82|Customer_082|1985-08-05|Japan|859.67
+83|Customer_083|1990-04-13|Japan|995.14
+84|Customer_084|1988-10-23|Canada|468.05
+85|Customer_085|1984-12-12|Japan|528.79
+86|Customer_086|1996-02-02|Japan|903.26
+87|Customer_087|1989-06-24|France|740.30
+88|Customer_088|1978-09-15|Japan|612.08
+89|Customer_089|1982-11-19|Japan|835.91
+90|Customer_090|1991-01-06|Germany|551.39
+91|Customer_091|1997-07-11|Japan|720.64
+92|Customer_092|1986-05-15|Japan|963.40
+93|Customer_093|1979-08-07|United States|841.77
+94|Customer_094|1993-12-20|Japan|678.03
+95|Customer_095|1985-02-18|Japan|579.92
+96|Customer_096|1988-10-10|Australia|693.22
+97|Customer_097|1990-03-28|Japan|902.56
+98|Customer_098|1982-07-03|Japan|785.11
+99|Customer_099|1984-09-17|Japan|665.42
+100|Customer_100|1987-11-30|Canada|918.04
